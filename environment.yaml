@@ -1,0 +1,18 @@
+name: SPNet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.5.1=cuda118_py310h920319e_303
+  - libtorch=2.5.1=cuda118_hb34f2e8_303
+  - torchvision=0.20.1=cuda118py310habec9e3_0
+  - cuda-version=11.8
+  - cudatoolkit=11.8
+  - cudnn=9.10.1.4
+  - numpy=1.26.4
+  - pillow=12.3.0
+  - h5py=3.16.0
+  - pip:
+      - fvcore==0.1.5.post20221221
+      - pytest==8.2.0
